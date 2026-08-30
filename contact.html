@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>购买 / 联系 — 香芬云南 XYONG · YUNNAN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="container">
+    <div class="top-bar-links">
+      <span>跨境出口 · 批发 / OEM 代工欢迎询盘</span>
+      <a href="./en/request-quote.html">Request a Quote (English) →</a>
+    </div>
+    <div class="lang-switch">
+      <a href="./index.html" class="active">中文</a>
+      <a href="./en/request-quote.html">EN</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="./index.html">香芬云南 <small>XYONG · YUNNAN</small></a>
+    <ul class="nav-links">
+      <li><a href="./index.html">首页</a></li>
+      <li><a href="./products.html">产品</a></li>
+      <li><a href="./batches.html">批次查询</a></li>
+      <li><a href="./science.html">科普</a></li>
+      <li><a href="./about.html">关于我们</a></li>
+      <li><a href="./contact.html" class="active">购买 / 联系</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="菜单">☰</button>
+  </nav>
+</header>
+
+<section class="hero" style="padding:64px 0 48px;">
+  <div class="container">
+    <span class="hero-eyebrow">购买 / 联系</span>
+    <h1 style="max-width:22ch;">零售购买，或批发/贴牌代工询盘</h1>
+    <p class="lede">网站不直接处理支付，购买通过我们的电商店铺或人工客服完成；批发、私人定制（OEM/ODM）与出口贸易请填写下方表单，我们会在1-2个工作日内回复。</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container story-block">
+    <div>
+      <h2>购买 / 合作渠道</h2>
+      <ul>
+        <li>· 官方店铺：<span class="text-mist">［待填入你的淘宝 / 微店 / 视频号小店链接］</span></li>
+        <li>· 微信客服：<span class="text-mist">［待填入客服微信号或二维码图片］</span></li>
+        <li>· 邮箱：<span class="text-mist">［待填入联系邮箱，建议使用独立域名邮箱，如 sales@xyong.ccwu.cc］</span></li>
+        <li>· 批发 / 出口：<span class="text-mist">见下方表单，或访问 <a href="./en/request-quote.html" class="link-batch">英文版询盘页</a></span></li>
+      </ul>
+      <div class="media-slot ratio-1-1 is-empty" style="margin-top:20px;">
+        <img src="./assets/img/contact-qrcode.jpg" alt="微信客服二维码">
+        <div class="media-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          <b>建议图片 600×600</b>
+          <span>微信客服二维码，替换 assets/img/contact-qrcode.jpg</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <form class="form-card form-grid" onsubmit="return false;">
+        <div>
+          <label for="type">咨询类型</label>
+          <select id="type" name="type">
+            <option>零售购买</option>
+            <option>批发采购</option>
+            <option>私人定制 OEM/ODM</option>
+            <option>跨境出口合作</option>
+            <option>媒体 / 其他合作</option>
+          </select>
+        </div>
+        <div>
+          <label for="name">称呼</label>
+          <input id="name" name="name" type="text" placeholder="怎么称呼你">
+        </div>
+        <div>
+          <label for="contact">联系方式</label>
+          <input id="contact" name="contact" type="text" placeholder="微信 / 手机 / 邮箱">
+        </div>
+        <div>
+          <label for="interest">感兴趣的产品</label>
+          <input id="interest" name="interest" type="text" placeholder="例如：大马士革玫瑰精油">
+        </div>
+        <div>
+          <label for="qty">意向数量（批发/OEM请填写）</label>
+          <input id="qty" name="qty" type="text" placeholder="例如：25kg / 月，或零售无需填写">
+        </div>
+        <div>
+          <label for="msg">留言</label>
+          <textarea id="msg" name="msg" rows="4" placeholder="想了解的问题、批次号或购买数量"></textarea>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">提交留言</button>
+        <p class="text-mist" style="font-size:12px;">说明：当前表单为展示样式，正式使用前建议接入 Formspree 等第三方表单服务完成真实提交，避免自建后端处理用户数据。详见部署文档"数据安全方案"。</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="site-footer"></footer>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/footer.js"></script>
+</body>
+</html>

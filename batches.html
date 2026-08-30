@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>批次查询 — 香芬云南 XYONG · YUNNAN</title>
+<meta name="description" content="全部生产批次的GC定量检测数据、理化指标与放行状态公开查询。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="container">
+    <div class="top-bar-links">
+      <span>跨境出口 · 批发 / OEM 代工欢迎询盘</span>
+      <a href="./en/wholesale.html">Wholesale &amp; Export (English) →</a>
+    </div>
+    <div class="lang-switch">
+      <a href="./index.html" class="active">中文</a>
+      <a href="./en/quality.html">EN</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="./index.html">香芬云南 <small>XYONG · YUNNAN</small></a>
+    <ul class="nav-links">
+      <li><a href="./index.html">首页</a></li>
+      <li><a href="./products.html">产品</a></li>
+      <li><a href="./batches.html" class="active">批次查询</a></li>
+      <li><a href="./science.html">科普</a></li>
+      <li><a href="./about.html">关于我们</a></li>
+      <li><a href="./contact.html">购买 / 联系</a></li>
+      <li><a class="btn btn-primary btn-sm" href="./contact.html">采购询盘</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="菜单">☰</button>
+  </nav>
+</header>
+
+<section class="hero" style="padding:64px 0 48px;">
+  <div class="container">
+    <span class="hero-eyebrow badge-live">数据实时同步车间生产记录</span>
+    <h1 style="max-width:22ch;">每一批的GC定量结果，都在这里</h1>
+    <p class="lede">批次号、产地、出油率、关键成分占比与标准区间、理化指标、放行状态——每次工厂生产完成检测放行后24小时内更新。未通过检测的批次也如实保留追溯记录。海外买家可凭此核对COA。</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="batch-toolbar" id="batch-toolbar"></div>
+    <div class="batch-grid" id="batch-grid">
+      <p class="text-mist">加载中…</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">怎么看这些数据</span>
+      <h2>关键成分条形图代表什么</h2>
+      <p class="text-mist">每个成分下方的进度条，表示该批次实测占比在"标准区间"内的相对位置——不是越高越好，而是落在合理区间内才代表原料真实、工艺稳定。想系统了解精油检测知识？</p>
+      <a class="btn btn-primary" href="./science.html">去科普页看"如何看懂检测报告"</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="site-footer"></footer>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/batches.js"></script>
+<script src="./assets/js/footer.js"></script>
+</body>
+</html>
