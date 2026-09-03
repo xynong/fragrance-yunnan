@@ -1,8 +1,8 @@
-# 香芬云南 XYONG · YUNNAN 网站源码 v2.0（跨境电商 B2B 改版）
+# brand-云南· YUNNAN 网站源码-跨境电商 v2.0
 
 纯 HTML/CSS/JavaScript 静态网站，无需构建步骤，可直接部署到 GitHub Pages。
 
-- 域名：`xyong.ccwu.cc`（见 `CNAME` 文件——**如果你的实际域名/仓库名是 `xynong` 而不是 `xyong`，上传前请先修改 CNAME 文件内容，并同步修改本文件与文档中的域名，否则自定义域名会绑定失败**）
+- 域名：`xyong.ccwu.cc`（ CNAME 文件内容，与本文件、文档中的域名相同）
 - 中文站（面向国内/零售）：根目录 `index.html` 等
 - 英文B2B站（面向跨境批发/OEM买家）：`en/` 目录 `index.html` 等
 - 数据：`data/products.json`（产品，含中英文字段与批发信息）、`data/batches.json`（批次检测数据，含中英文字段）
@@ -27,7 +27,7 @@ python3 -m http.server 8000
 
 ## 新增功能一览（v2.0）
 
-1. 英文 `/en/` 子目录：面向国际批发/OEM买家的完整B2B站点（首页/产品/批发条款/质检数据/关于/询盘表单）
+1. 英文 `/en/` 子目录：面向国际批发/OEM买家的B2B站点（首页/产品/批发条款/质检数据/关于/询盘表单）
 2. 顶部工具条：中英文切换 + 跨境合作入口
 3. 询盘表单升级：`contact.html`（中文，零售+批发分流）、`en/request-quote.html`（英文RFQ表单，已预留Formspree接入位）
 4. 批发/私人定制专页 `en/wholesale.html`：MOQ表、OEM/ODM说明、认证清单、贸易条款、下单流程、FAQ
